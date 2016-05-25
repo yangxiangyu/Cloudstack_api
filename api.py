@@ -1,8 +1,8 @@
 #coding=utf-8
 import hashlib, hmac , string , base64, urllib, json
 api_url = "http://cloudstack:8080/client/api"
-api_key = "C6kZ4Fqd5EFwCd8ZEaXqqWwm2KadmEfDjfNN6xe-d5-DgFG9tzpxRBI_7cEgTNzY59bPcrOyH1Ws3IbhQTi-0w"
-secret = "TFU5_bG1y311wueMnyMBxoxPCNZBPBvp_AcRRL93qV5KpszRNPTValpTFVpxJQfmsIA9hzw5_53u9EPZK3JrNw"
+api_key = "AK"
+secret = "SK"
 
 class CloudStackAPI(object):
 	""" """
